@@ -2,6 +2,7 @@ FROM python:3.8.13-bullseye
 
 ARG django_secret_key
 ARG openai_api_key
+ARG DATABASE_URL
 ARG PGDATABASE
 ARG PGHOST
 ARG PGPASSWORD
